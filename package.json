@@ -9,9 +9,9 @@
   "homepage": "https://github.com/LunaYJ/react-mobile-datetimepicker#readme",
   "keywords": [
     "react-component",
-    "react-datepicker",
+    "react-datetimepicker",
     "date",
-    "datepicker",
+    "datetimepicker",
     "react",
     "mobile",
     "calendar"
@@ -29,7 +29,7 @@
     "test": "./node_modules/.bin/nyc npm run mocha",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
-  "author": "rainie",
+  "author": "Luna Shu",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.9.0",
