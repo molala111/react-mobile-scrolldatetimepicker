@@ -1,7 +1,6 @@
 {
   "name": "react-mobile-datetimepicker",
   "version": "1.0.2",
-
   "description": "一个移动端时间日期选择器react组件 基于 lanjingling0510/react-mobiledatepicker",
   "main": "./dist/react-mobile-datetimepicker.js",
   "amdName": "reactMobileDateTimePicker",
@@ -17,6 +16,7 @@
     "mobile",
     "calendar"
   ],
+
   "scripts": {
     "clean": "rm -rf dist/",
     "build": "npm-run-all clean transpile minify size",
