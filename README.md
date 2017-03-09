@@ -13,27 +13,28 @@ react-mobile-datetimepicker可以通过上下滑动来设置年、月、日、�
 ## Screenshots
 ### default
 <div style="padding:30px">
-<img src="https://raw.githubusercontent.com/lanjingling0510/react-mobile-datepicker/master/.github/default.png" width="300" />
+
+<img src="readmeImg/default.png" width="300" />
 </div>
 
 ### dark
 <div style="padding:30px">
-<img src="https://raw.githubusercontent.com/lanjingling0510/react-mobile-datepicker/master/.github/dark.png" width="300" />
+<img src="readmeImg/default-dark.png" width="300" />
 </div>
 
 ### ios
 <div style="padding:30px">
-<img src="https://raw.githubusercontent.com/lanjingling0510/react-mobile-datepicker/master/.github/ios.png" width="300" />
+<img src="readmeImg/ios.png" width="300" />
 </div>
 
 ### android
 <div style="padding:30px">
-<img src="https://raw.githubusercontent.com/lanjingling0510/react-mobile-datepicker/master/.github/android.png" width="300" />
+<img src="readme/android.png" width="300" />
 </div>
 
 ### android-dark
 <div style="padding:30px">
-<img src="https://raw.githubusercontent.com/lanjingling0510/react-mobile-datepicker/master/.github/android-dark.png" width="300" />
+<img src="readme/android-dark.png" width="300" />
 </div>
 
 ## Getting Started

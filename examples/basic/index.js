@@ -31,7 +31,7 @@ window.Perf = require('react-addons-perf');
             return (
                 <div className="App">
                     <p className="select-time ">
-                        {convertDate(this.state.time, 'YYYY-MM-DD')}
+                        {convertDate(this.state.time, 'YYYY-MM-DD hh:mm')}
                     </p>
                     <div>
                         <a
