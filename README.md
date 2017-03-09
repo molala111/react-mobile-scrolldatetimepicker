@@ -1,5 +1,5 @@
 # react-mobile-datetimepicker
-
+[![Build Status](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker.svg?branch=master)](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker)
 
 
 **一个轻量级的react移动端日期时间选择器<br /> 基于 https://github.com/lanjingling0510/react-mobile-datepicker**
