@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-datetimepicker",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "一个移动端时间日期选择器react组件 基于 lanjingling0510/react-mobiledatepicker",
   "main": "./dist/react-mobile-datetimepicker.js",
   "amdName": "reactMobileDateTimePicker",
@@ -29,7 +29,7 @@
     "test": "./node_modules/.bin/nyc npm run mocha",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
-  "author": "Luna Shu",
+  "author": "Luna Shu <luna_yj@hotmail.com> (http://luna.fancylog.net)",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.9.0",
