@@ -1,10 +1,10 @@
-# react-mobile-datepicker
+# react-mobile-datetimepicker
 [![Travis][build-badge]][build] [![npm package][npm-badge]][npm] [![Coveralls][coveralls-badge]][coveralls]
 
 
-**a  lightweight react date picker for mobile, Not more than 4k**
+**一个轻量级的react移动端日期时间选择器<br /> 基于 https://github.com/lanjingling0510/react-mobile-datepicker**
 
-react-mobile-datepicker provides a component that can set year, month and day by sliding up or down.
+react-mobile-datetimepicker可以通过上下滑动来设置年、月、日、时、分。
 
 ## Features
 - is only 4k.
@@ -42,7 +42,7 @@ react-mobile-datepicker provides a component that can set year, month and day by
 
 Using [npm](https://www.npmjs.com/):
 
-	$ npm install react-mobile-datepicker --save
+	$ npm install react-mobile-datetimepicker --save
 
 ### Import what you need
 The following guide assumes you have some sort of ES2015 build set up using babel and/or webpack/browserify/gulp/grunt/etc.
@@ -87,7 +87,7 @@ class App extends React.Component {
 					select time
 				</a>
 
-				<DatePicker
+				<DateTimePicker
 					value={this.state.time}
 					isOpen={this.state.isOpen}
 					onSelect={this.handleSelect}
@@ -109,7 +109,7 @@ ReactDOM.render(<App />, document.getElementById('react-box'));
 | isPopup      | Boolean | true | whether  as popup add a overlay |
 | isOpen      | Boolean | false | whether to open datepicker |
 | theme      | String      | default  | theme of datepicker, include 'default', 'dark', 'ios', 'android', 'android-dark' |
-| dateFormat | Array     | ['YYYY', 'M', 'D'] | according to year, month, day format specified display text. E.g ['YYYY年', 'MM月', 'DD日']|
+| dateFormat | Array     | ['YYYY', 'M', 'D'，'hh','mm'] | according to year, month, day format specified display text. E.g ['YYYY年', 'MM月', 'DD日','hh时','mm分钟']|
 | value | Date | new Date() | date value |
 | min  | Date | new Date(1970, 0, 1) | minimum date |
 | max | Date | new Date(2050, 0, 1) | maximum date |
@@ -122,17 +122,6 @@ ReactDOM.render(<App />, document.getElementById('react-box'));
 ## How to Contribute
 
 Anyone and everyone is welcome to contribute to this project. The best way to
-start is by checking our [open issues](https://github.com/lanjingling0510/react-mobile-datepicker/issues),
-[submit a new issues](https://github.com/lanjingling0510/react-mobile-datepicker/issues/new?labels=bug) or
-[feature request](https://github.com/lanjingling0510/react-mobile-datepicker/issues/new?labels=enhancement),
+start is by checking our [open issues](https://github.com/LunaYJ/react-mobile-datetimepicker/issues)
 participate in discussions, upvote or downvote the issues you like or dislike.
 
-
-
-
-[npm-badge]: https://img.shields.io/npm/v/react-mobile-datepicker.svg?style=flat-square
-[npm]: https://www.npmjs.com/package/react-mobile-datepicker
-[build-badge]: https://img.shields.io/travis/lanjingling0510/react-mobile-datepicker/master.svg?style=flat-square
-[build]: https://travis-ci.org/lanjingling0510/react-mobile-datepicker
-[coveralls-badge]: https://img.shields.io/coveralls/lanjingling0510/react-mobile-datepicker.svg?style=flat-square
-[coveralls]: https://coveralls.io/github/lanjingling0510/react-mobile-datepicker
