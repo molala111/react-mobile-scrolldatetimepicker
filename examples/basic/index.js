@@ -64,6 +64,8 @@ window.Perf = require('react-addons-perf');
                         </a>
                     </div>
                     <DateTimePicker
+                        confirmTxt={'确定'}
+                        cancelTxt={'放弃'}
                         value={this.state.time}
                         theme={this.state.theme}
                         isOpen={this.state.isOpen}

@@ -112,6 +112,8 @@ ReactDOM.render(<App />, document.getElementById('react-box'));
 
 | Property        | Type           | Default  | Description |
 |:------------- |:------------- |:-------------- |:---------- |
+| confirmTxt      | String | '完成' | set confirm text |
+| cancelTxt      | String | '取消' | set cancel text |
 | isPopup      | Boolean | true | whether  as popup add a overlay |
 | isOpen      | Boolean | false | whether to open datetimepicker |
 | theme      | String      | default  | theme of datetimepicker, include 'default', 'dark', 'ios', 'android', 'android-dark' |
