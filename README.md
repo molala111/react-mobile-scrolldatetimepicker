@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker.svg?branch=master)](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker)
 
 
-**一个轻量级的react移动端日期时间选择器<br /> 基于 https://github.com/lanjingling0510/react-mobile-datepicker**
+**一个轻量级的react移动端日期时间选择器<br /> 基于 https://github.com/lanjingling0510/react-mobile-datetimepicker**
 
 react-mobile-datetimepicker可以通过上下滑动来设置年、月、日、时、分。
 
@@ -58,7 +58,7 @@ The following guide assumes you have some sort of ES2015 build set up using babe
 // Using an ES6 transpiler like Babel
 import  React from 'react';
 import ReactDOM from 'react-dom';
-import DatePicker from 'react-mobile-datepicker';
+import DateTimePicker from 'react-mobile-datetimepicker';
 ```
 
 
@@ -113,8 +113,8 @@ ReactDOM.render(<App />, document.getElementById('react-box'));
 | Property        | Type           | Default  | Description |
 |:------------- |:------------- |:-------------- |:---------- |
 | isPopup      | Boolean | true | whether  as popup add a overlay |
-| isOpen      | Boolean | false | whether to open datepicker |
-| theme      | String      | default  | theme of datepicker, include 'default', 'dark', 'ios', 'android', 'android-dark' |
+| isOpen      | Boolean | false | whether to open datetimepicker |
+| theme      | String      | default  | theme of datetimepicker, include 'default', 'dark', 'ios', 'android', 'android-dark' |
 | dateFormat | Array     | ['YYYY', 'M', 'D'，'hh','mm'] | according to year, month, day format specified display text. E.g ['YYYY年', 'MM月', 'DD日','hh时','mm分钟']|
 | value | Date | new Date() | date value |
 | min  | Date | new Date(1970, 0, 1) | minimum date |

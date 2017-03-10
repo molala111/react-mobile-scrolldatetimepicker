@@ -2,7 +2,7 @@ import './main.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { convertDate } from '../../lib/time.js';
-import DatePicker from '../../lib/index';
+import DateTimePicker from '../../lib/index';
 // import DatePicker from '../../dist/react-mobile-datepicker.js';
 
 window.Perf = require('react-addons-perf');
@@ -60,7 +60,7 @@ window.Perf = require('react-addons-perf');
                             android-dark
                         </a>
                     </div>
-                    <DatePicker
+                    <DateTimePicker
                         value={this.state.time}
                         theme={this.state.theme}
                         isOpen={this.state.isOpen}
