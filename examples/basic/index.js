@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { convertDate } from '../../lib/time.js';
 import DateTimePicker from '../../lib/index';
-// import DatePicker from '../../dist/react-mobile-datepicker.js';
 
 window.Perf = require('react-addons-perf');
 
