@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom';
 import { convertDate } from '../../lib/time.js';
 import DateTimePicker from '../../lib/index';
 
+// import DateTimePicker from '../../dist/react-mobile-datetimepicker';
+
+
 window.Perf = require('react-addons-perf');
 
 (function main() {
@@ -19,6 +22,7 @@ window.Perf = require('react-addons-perf');
         }
 
         handleThemeToggle = (theme) => () => {
+            console.log(theme)
             this.setState({ theme, isOpen: true });
         }
 
