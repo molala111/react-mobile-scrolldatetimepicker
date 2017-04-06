@@ -1,3 +1,3 @@
-module.exports =  {
-    name: 'mobile-datetimepicker',
+module.exports = {
+    name: 'mobile-scrolldatetimepicker',
 };

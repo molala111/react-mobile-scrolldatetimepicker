@@ -1,12 +1,12 @@
 {
-  "name": "react-mobile-datetimepicker",
-  "version": "1.0.10",
-  "description": "一个移动端时间日期选择器react组件 基于 lanjingling0510/react-mobiledatepicker",
+  "name": "react-mobile-scrolldatetimepicker",
+  "version": "1.0.0",
+  "description": "react mobile datetime picker",
   "main": "./dist/react-mobile-datetimepicker.js",
-  "amdName": "reactMobileDateTimePicker",
-  "minified:main": "dist/react-mobile-datetimepicker.min.js",
-  "repository": "LunaYJ/react-mobile-datetimepicker",
-  "homepage": "https://github.com/LunaYJ/react-mobile-datetimepicker#readme",
+  "amdName": "reactMobileScrollDateTimePicker",
+  "minified:main": "dist/react-mobile-scrolldatetimepicker.min.js",
+  "repository": "andreystarkov/react-mobile-scrolldatetimepicker",
+  "homepage": "https://github.com/andreystarkov/react-mobile-scrolldatetimepicker#readme",
   "keywords": [
     "react-component",
     "react-datetimepicker",
@@ -14,7 +14,11 @@
     "datetimepicker",
     "react",
     "mobile",
-    "calendar"
+    "calendar",
+    "scroll",
+    "ios",
+    "android",
+    "ios-like"
   ],
   "scripts": {
     "clean": "rm -rf dist/",
@@ -29,7 +33,7 @@
     "test": "./node_modules/.bin/nyc npm run mocha",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
-  "author": "Luna Shu <luna_yj@hotmail.com> (http://luna.fancylog.net)",
+  "author": "Andrey Starkov <im@andreystarkov.ru> (http://github.com/andreystarkov)",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.9.0",

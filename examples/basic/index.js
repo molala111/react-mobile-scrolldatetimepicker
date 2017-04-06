@@ -1,7 +1,7 @@
 import './main.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { convertDate } from '../../lib/time.js';
+import { convertDate } from '../../lib/time';
 import DateTimePicker from '../../lib/index';
 
 // import DateTimePicker from '../../dist/react-mobile-datetimepicker';
@@ -33,7 +33,7 @@ window.Perf = require('react-addons-perf');
             return (
                 <div className='App'>
                     <p className='select-time '>
-                        {convertDate(this.state.time, 'YYYY-MM-DD hh:mm')}
+                        {convertDate(this.state.time, 'YYYY-MM-DD')}
                     </p>
                     <div>
                         <a
