@@ -12,10 +12,10 @@ export default {
     plugins: [
         postcss({
             plugins: [
-                require("postcss-url")(),
-                require("postcss-cssnext")(),
-                require("postcss-mixins"),
-                require("postcss-nested")(),
+                require('postcss-url')(),
+                require('postcss-cssnext')(),
+                require('postcss-mixins'),
+                require('postcss-nested')(),
             ],
             extensions: ['.css'],
         }),

@@ -1,10 +1,4 @@
 # react-mobile-datetimepicker
-[![Build Status](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker.svg?branch=master)](https://travis-ci.org/LunaYJ/react-mobile-datetimepicker)
-
-
-**一个轻量级的react移动端日期时间选择器<br /> 基于 https://github.com/lanjingling0510/react-mobile-datetimepicker**
-
-react-mobile-datetimepicker可以通过上下滑动来设置年、月、日、时、分。
 
 ## Features
 - is only 4k.
@@ -132,4 +126,3 @@ ReactDOM.render(<App />, document.getElementById('react-box'));
 Anyone and everyone is welcome to contribute to this project. The best way to
 start is by checking our [open issues](https://github.com/LunaYJ/react-mobile-datetimepicker/issues)
 participate in discussions, upvote or downvote the issues you like or dislike.
-

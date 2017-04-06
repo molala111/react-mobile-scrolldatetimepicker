@@ -121,26 +121,62 @@
 .datepicker {
 
     /* default */
+
     &.default {
-        background-color: var(--default-bg);
+        background-color: var(--ios-bg);
+        .datepicker-col-1 {margin: 0}
+        .datepicker-viewport {
+            &::after {
+                background: linear-gradient(rgba(247, 247, 247,0.7),rgba(245,245,245,0)52%,rgba(245,245,245,0)48%,rgba(247, 247, 247,0.7));
+            }
+        }
         .datepicker-wheel {
-            border-top: 1px solid var(--default-theme);
-            border-bottom: 1px solid var(--default-theme);
+            background: #ececec;
+            border-top: 1px solid #dedede;
+            border-bottom: 2px solid #dedede;
         }
         .datepicker-scroll {
             li {
-                color: var(--default-color);
+                color: var(--ios-color);
             }
 
             li.disabled {
-                color: var(--default-disabled-color);
+                color: var(--ios-disabled-color);
             }
         }
+
+        .datepicker-navbar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 0;
+
+        }
+
         .datepicker-navbar-btn {
-            color: var(--default-theme);
+            color: #444;
+            width:50%;
+            float:right;
+            padding:0;
+            &.btn-confirm {
+              color:#000;
+              background: #b6db8f;
+              border-bottom: 3px solid #a9c78a;
+            }
+            &.btn-cancel {
+              background: #e7e7e7;
+              border-bottom: 3px solid #dedede;
+            }
+            &:nth-child(2) {
+                float: left;
+            }
+        }
+
+        .datepicker-content {
+            padding-top: 48px;
         }
     }
-
     /* dark */
     &.dark {
         background-color: var(--dark-bg);

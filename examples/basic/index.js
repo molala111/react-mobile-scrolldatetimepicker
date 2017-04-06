@@ -6,7 +6,6 @@ import DateTimePicker from '../../lib/index';
 
 // import DateTimePicker from '../../dist/react-mobile-datetimepicker';
 
-
 window.Perf = require('react-addons-perf');
 
 (function main() {
@@ -22,7 +21,7 @@ window.Perf = require('react-addons-perf');
         }
 
         handleThemeToggle = (theme) => () => {
-            console.log(theme)
+            console.log(theme);
             this.setState({ theme, isOpen: true });
         }
 
@@ -32,40 +31,38 @@ window.Perf = require('react-addons-perf');
 
         render() {
             return (
-                <div className="App">
-                    <p className="select-time ">
+                <div className='App'>
+                    <p className='select-time '>
                         {convertDate(this.state.time, 'YYYY-MM-DD hh:mm')}
                     </p>
                     <div>
                         <a
-                            className="select-btn sm"
+                            className='select-btn sm'
                             onClick={this.handleThemeToggle('default')}>
                             default
                         </a>
                         <a
-                            className="select-btn sm"
+                            className='select-btn sm'
                             onClick={this.handleThemeToggle('dark')}>
                             dark
                         </a>
                         <a
-                            className="select-btn sm"
+                            className='select-btn sm'
                             onClick={this.handleThemeToggle('ios')}>
                             ios
                         </a>
                         <a
-                            className="select-btn sm"
+                            className='select-btn sm'
                             onClick={this.handleThemeToggle('android')}>
                             android
                         </a>
                         <a
-                            className="select-btn sm"
+                            className='select-btn sm'
                             onClick={this.handleThemeToggle('android-dark')}>
                             android-dark
                         </a>
                     </div>
                     <DateTimePicker
-                        confirmTxt={'确定'}
-                        cancelTxt={'放弃'}
                         value={this.state.time}
                         theme={this.state.theme}
                         isOpen={this.state.isOpen}
